@@ -12,4 +12,3 @@ def my_each(array)
 end
 
 my_each { |name| puts name }
-end
