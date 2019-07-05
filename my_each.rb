@@ -6,7 +6,12 @@ def my_each(array)
       i += 1
     end
   else
-    puts "This Block should not run!
+    puts "This Block should not run!"
   end
   array
 end
+
+my_each(array[i]) do |name|
+  puts name
+end
+  
