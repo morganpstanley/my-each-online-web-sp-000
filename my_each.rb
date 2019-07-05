@@ -6,7 +6,7 @@ def my_each(array)
       i = i + 1
     end
   else
-    puts "This Block should not run!"
+    return "This Block should not run!"
   end
   array
 end
