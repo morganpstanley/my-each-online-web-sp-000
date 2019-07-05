@@ -14,4 +14,3 @@ end
 my_each(array[i]) do |name|
   puts name
 end
-  
