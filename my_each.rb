@@ -1,16 +1,8 @@
-def my_each(collection)
+def my_each(array)
   if block_given?
-    i = 0
-    while i < collection.length
-      yield array[i]
-      i += 1
-    end
-    array
-  else
-    puts "This Block should not run!"
-  end
-end
 
-my_each(i) do |i|
-  puts i
+  else
+    puts "This Block should not run!
+  end
+  array
 end
